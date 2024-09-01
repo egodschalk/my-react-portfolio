@@ -1,0 +1,91 @@
+.footer {
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+.git-icon-footer {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 20px;
+}
+
+.li-icon-footer {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 20px;
+}
+
+.ig-icon-footer {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .footer {
+        height: 50px;
+    }
+
+    .git-icon-footer,
+    .li-icon-footer,
+    .ig-icon-footer {
+        width: 30px;
+        height: 30px;
+        margin: 10px 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer {
+        height: 150px;
+        width: 30px;
+        flex-wrap: wrap;
+        /* position: absolute; */
+        left: 1vw;
+    }
+
+    .git-icon-footer,
+    .li-icon-footer,
+    .ig-icon-footer {
+        width: 25px;
+        height: 25px;
+        margin: 10px 0 0 0;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .footer {
+        height: 130px;
+        width: 30px;
+        flex-wrap: wrap;
+    }
+
+    .git-icon-footer,
+    .li-icon-footer,
+    .ig-icon-footer {
+        left: 0;
+        box-shadow: 0 0 5px 3px white;
+    }
+}

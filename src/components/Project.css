@@ -1,0 +1,64 @@
+.projects {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    max-height: 60vh;
+}
+
+.project-card {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: -50px;
+}
+
+.project-image {
+    width: 300px;
+    height: 220px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0px white;
+    position: relative;
+    bottom: 20px;
+}
+
+.project-image:hover {
+    opacity: 70%;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255);
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    color: #565656;
+    position: relative;
+    bottom: 185px;
+    text-align: center;
+    /* visibility: hidden; */
+    text-shadow: 0 0 10px white, 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px #fff, 0 0 80px #fff;
+}
+
+.project-title:hover {
+    text-shadow: 0 0 10px white, 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px #fff, 0 0 80px #fff;
+}
+
+.git-logo {
+    width: 30px;
+    position: relative;
+    bottom: 185px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+}

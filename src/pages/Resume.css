@@ -1,0 +1,104 @@
+.resume-page {
+    color: white;
+    /* margin: 80px 150px; */
+}
+
+.resume-header {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 5%;
+    right: 75%;
+    top: 250px;
+    text-wrap: wrap;
+}
+
+h2 {
+    font-size: 30pt;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    padding-bottom: 3vh;
+}
+
+.resume-link {
+    color: white;
+    text-decoration: none;
+    background-color: salmon;
+    max-width: 120px;
+    text-wrap: wrap;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.resume-link:hover {
+    background-color: rgba(250, 128, 114, 0.85);
+}
+
+.resume-content {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 250px;
+    text-align: left;
+}
+
+.resume-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.skillz {
+    padding: 2vh;
+    box-shadow: 0 0 15px 0px white;
+    border-radius: 20px;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    background-color: rgba(17, 0, 80, 0.7);
+}
+
+@media screen and (max-width: 1000px) {
+    .resume-header {
+        left: 0;
+        visibility: hidden;
+        margin-bottom: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 150px;
+    }
+
+    .resume-link {
+        visibility: visible;
+    }
+
+    .resume-content {
+        left: 2vw;
+        right: 0;
+        top: 300px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillz {
+        margin-right: 5vw;
+        margin-bottom: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 617px) {
+    .resume-content {
+        left: 18vw;
+    }
+}

@@ -1,0 +1,46 @@
+.portfolio-page {
+    color: white;
+    margin: 80px 150px;
+}
+
+.portfolio-header {
+    color: white;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 5%;
+    right: 75%;
+    top: 250px;
+    font-weight: 100;
+}
+
+.portfolio-cards {
+    position: absolute;
+    left: 30%;
+    right: 10%;
+    top: 280px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio-header {
+        left: 0;
+        visibility: hidden;
+    }
+
+    .portfolio-cards {
+        left: 0;
+        width: 100vw;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio-cards {
+        left: 40px;
+        width: 90vw;
+
+    }
+}

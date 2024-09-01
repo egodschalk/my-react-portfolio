@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap'); */
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url(./assets/background3.jpg);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    background-image: url(./assets/background.jpg);
+    /* background-size: cover; */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    background-image: url(./assets/background-mobile.jpg);
+  }
+}
