@@ -1,7 +1,6 @@
 :root {
   color: rgba(255, 255, 255, 0.87);
   background-image: url(./assets/background3.jpg);
-  /* background-size: 100vw 100vh; */
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -9,3 +8,14 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 800px) {
+  :root {
+    background-image: url(./assets/background.jpg);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    background-image: url(./assets/background-mobile.jpg);
+  }
+}

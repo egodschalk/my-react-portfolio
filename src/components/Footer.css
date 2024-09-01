@@ -56,19 +56,20 @@
 @media screen and (max-width: 900px) {
 
     .footer {
-        height: 150px;
+        height: 180px;
         width: 30px;
         flex-wrap: wrap;
         /* position: absolute; */
-        left: 1vw;
+        left: 2vw;
+        bottom: 4vw;
     }
 
     .git-icon-footer,
     .li-icon-footer,
     .ig-icon-footer {
-        width: 25px;
-        height: 25px;
-        margin: 10px 0 0 0;
+        width: 30px;
+        height: 30px;
+        margin: 10px 0;
     }
 
 }
@@ -77,8 +78,8 @@
 @media screen and (max-width: 500px) {
     
     .footer {
-        height: 130px;
-        width: 30px;
+        height: 140px;
+        width: 40px;
         flex-wrap: wrap;
     }
 

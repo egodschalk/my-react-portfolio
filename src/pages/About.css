@@ -62,9 +62,11 @@
 @media screen and (max-width: 550px) {
     .headshot {
         margin: 0 0 40px 0;
+        width: 150px;
+        height: 150px;
     }
     .about-text {
-        min-width: 325px;
-        font-size: 1.5vh;
+        min-width: 300px;
+        font-size: 1.75vh;
     }
 }
