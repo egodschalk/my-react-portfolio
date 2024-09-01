@@ -53,12 +53,11 @@
     .navtabs {
         display: flex;
         justify-content: center;
-        width: 100vw;
     }
 
     .nav-nav-tabs {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .nav-item {
