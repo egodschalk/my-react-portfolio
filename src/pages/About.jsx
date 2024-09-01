@@ -8,7 +8,7 @@ export default function About() {
             <div className='about-content'>
                 <img className="headshot" src={headshot} alt="" />
                 <p className='about-text'>
-                    My name is Elizabeth Godschalk. I am a newly minted Web Developer, by way of the Full Stack Bootcamp through UC Berkeley extension. I have a background in Product Management, Industrial Engineering, Process Improvement, and Project Management. I have a passion for dancing, especially latin dance. I travel all over the country, and even internationally, to learn from professional dancers, dance with people from all over the world, and perform.
+                    My name is Elizabeth Godschalk. I am a newly minted Web Developer, by way of the Full Stack Bootcamp through UC Berkeley extension. I have a 15 years of experience in Product Management, Industrial Engineering, Process Improvement, and Project Management. I have a passion for dancing, especially latin dance. I travel all over the country, and even internationally, to learn from professional dancers, dance with people from all over the world, and perform.
                 </p>
             </div>
         </div>
