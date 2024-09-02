@@ -1,6 +1,5 @@
 .resume-page {
     color: white;
-    /* margin: 80px 150px; */
 }
 
 .resume-header {
@@ -26,16 +25,17 @@ h2 {
 .resume-link {
     color: white;
     text-decoration: none;
-    background-color: salmon;
+    background-color: #d94051;
     max-width: 120px;
     text-wrap: wrap;
     padding: 10px 5px;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .resume-link:hover {
-    background-color: rgba(250, 128, 114, 0.85);
+    background-color: rgba(217, 64, 82, 0.876);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, .5);
 }
 
 .resume-content {

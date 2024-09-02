@@ -37,12 +37,10 @@
     justify-content: center;
 }
 
-/* .label {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-} */
+.label-message {
+    display: flex;
+    top: 0;
+}
 
 .name,
 .email {
@@ -61,16 +59,22 @@
 }
 
 button {
-    background-color: salmon;
+    background-color: #d94051;
     color: white;
     padding: 8px;
     width: 120px;
-    border-color: salmon;
-    font-weight: 400;
+    /* border-color: #d94051; */
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
     margin-left: 300px;
     margin-right: 300px;
 }
 
+button:hover {
+    background-color: rgba(217, 64, 82, 0.876);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, .5);
+}
 
 @media screen and (max-width: 1000px) {
     .contact-header {
@@ -88,7 +92,7 @@ button {
 
 @media screen and (max-width: 515px) {
     .message {
-        width: 300px;
+        width: 270px;
         height: 250px;
     }
 }

@@ -60,13 +60,20 @@
 }
 
 @media screen and (max-width: 550px) {
+    
+    .about-content {
+        top: 220px;
+    }
+    
     .headshot {
         margin: 0 0 40px 0;
         width: 150px;
         height: 150px;
     }
+
     .about-text {
         min-width: 300px;
-        font-size: 1.75vh;
+        font-size: 4vw;
+        margin-left: 50px;
     }
 }

@@ -18,7 +18,7 @@ export default function Contact() {
                         </label>
                     </div>
                     <div className='field'>
-                        <label className='label'>Message:
+                        <label className='label-message'>Message:
                             <textarea className="message" rows="8" cols="50" placeholder="type your message here"></textarea>
 
                         </label>
