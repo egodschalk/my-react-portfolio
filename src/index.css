@@ -12,6 +12,7 @@
 @media screen and (max-width: 800px) {
   :root {
     background-image: url(./assets/background.jpg);
+    background-attachment: fixed;
   }
 }
 

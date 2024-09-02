@@ -63,7 +63,9 @@
     .nav-item {
         padding-left: 0px;
         padding-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
         align-items: center;
-        font-size: 3.5vw;
+        font-size: 3.7vw;
     }
   }
