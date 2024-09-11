@@ -1,6 +1,6 @@
 import './Resume.css';
 import { useState, useEffect } from 'react';
-import resume from '../assets/Elizabeth-Godschalk-Resume-1.png'
+import resume from '../assets/Elizabeth-Godschalk-Resume.pdf'
 
 export default function Resume() {
     return (
