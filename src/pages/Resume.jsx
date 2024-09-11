@@ -14,21 +14,19 @@ export default function Resume() {
             <div className='resume-content'>
                 <div className='resume-text'>
                     <div className='skillz'>
-                        <h4>FrontEnd Proficiencies:</h4>
+                        <h4>FrontEnd</h4>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>React</li>
                             <li>Bootstrap</li>
                             <li>JavaScript</li>
-                            <li>JQuery</li>
                             <li>Responsive Design</li>
-                            <li>React</li>
                             <li>Handlebars</li>
-                            <li>Bootstrap</li>
                         </ul>
                     </div>
                     <div className='skillz'>
-                        <h4>BackEnd Proficiencies:</h4>
+                        <h4>BackEnd</h4>
                         <ul>
                             <li>APIs</li>
                             <li>Node</li>
@@ -36,7 +34,6 @@ export default function Resume() {
                             <li>PostgreSQL, Sequelize</li>
                             <li>MongoDB, Mongoose</li>
                             <li>REST</li>
-                            <li>GraphQL</li>
                         </ul>
                     </div>
 

@@ -40,7 +40,7 @@ const initialState = [
         icon: gitIcon,
         imgUrl: KnowItFwd,
         gitUrl: "https://github.com/kalisurf3r/knowitforward",
-        projectUrl: 'http://localhost:5174/'
+        projectUrl: 'https://knowitforward.netlify.app/'
     },    
     {
         id: 5,
