@@ -12,38 +12,14 @@ import gitIcon from '../assets/github-logo.png'
 const initialState = [
     {
         id: 1,
-        title: 'How\'s The Weather?',
-        icon: gitIcon,
-        imgUrl: weather,
-        gitUrl: 'https://github.com/egodschalk/hows-the-weather',
-        projectUrl: 'https://egodschalk.github.io/hows-the-weather/'
-    },
-    {
-        id: 2,
-        title: 'onIt',
-        icon: gitIcon,
-        imgUrl: onIt,
-        gitUrl: 'https://github.com/Preksha2408/Full-stack-application-Project-2',
-        projectUrl: 'https://full-stack-application-project-2.onrender.com/'
-    },   
-    {
-        id: 3,
-        title: 'CSS Portfolio',
-        icon: gitIcon,
-        imgUrl: firstPortfolio,
-        gitUrl: 'https://github.com/egodschalk/Elizabeth-Portfolio',
-        projectUrl: 'https://egodschalk.github.io/Elizabeth-Portfolio/'
-    },    
-    {
-        id: 4,
         title: 'KnowItForward',
         icon: gitIcon,
         imgUrl: KnowItFwd,
         gitUrl: "https://github.com/kalisurf3r/knowitforward",
         projectUrl: 'https://knowitforward.netlify.app/'
-    },    
+    },   
     {
-        id: 5,
+        id: 2,
         title: 'What\'s for Dinner?',
         icon: gitIcon,
         imgUrl: dinner,
@@ -51,14 +27,29 @@ const initialState = [
         projectUrl: 'https://justkuper.github.io/Project-1/'
     },    
     {
-        id: 6,
-        title: 'Personal Blog',
+        id: 3,
+        title: 'How\'s The Weather?',
         icon: gitIcon,
-        imgUrl: blog,
-        gitUrl: 'https://github.com/egodschalk/Student-Personal-Blog',
-        projectUrl: 'https://egodschalk.github.io/Student-Personal-Blog/'
+        imgUrl: weather,
+        gitUrl: 'https://github.com/egodschalk/hows-the-weather',
+        projectUrl: 'https://egodschalk.github.io/hows-the-weather/'
     },
-
+    {
+        id: 4,
+        title: 'onIt',
+        icon: gitIcon,
+        imgUrl: onIt,
+        gitUrl: 'https://github.com/Preksha2408/Full-stack-application-Project-2',
+        projectUrl: 'https://full-stack-application-project-2.onrender.com/'
+    },   
+    {
+        id: 5,
+        title: 'CSS Portfolio',
+        icon: gitIcon,
+        imgUrl: firstPortfolio,
+        gitUrl: 'https://github.com/egodschalk/Elizabeth-Portfolio',
+        projectUrl: 'https://egodschalk.github.io/Elizabeth-Portfolio/'
+    },    
 ]
 
 export default function Portfolio() {
