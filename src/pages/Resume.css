@@ -1,8 +1,15 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
 .resume-page {
     color: white;
 }
 
-.resume-header {
+/* .resume-header {
     color: white;
     font-weight: 100;
     margin-bottom: 30px;
@@ -11,26 +18,38 @@
     right: 75%;
     top: 250px;
     text-wrap: wrap;
-}
+} */
 
-h2 {
+/* h2 {
     font-size: 30pt;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     padding-bottom: 3vh;
+} */
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    left: 40vw;
+    width: 60vw;
+    top: 10vh;
 }
 
 .resume-link {
     color: white;
     text-decoration: none;
     background-color: #d94051;
-    max-width: 120px;
-    text-wrap: wrap;
-    padding: 10px 5px;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
     border-radius: 5px;
     font-weight: 300;
+    margin: 20px 0;
 }
 
 .resume-link:hover {
@@ -38,68 +57,51 @@ h2 {
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, .5);
 }
 
-.resume-content {
-    display: flex;
-    position: absolute;
-    left: 30%;
-    top: 250px;
-    text-align: left;
-}
-
 .resume-text {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: left;
+    align-items: space-around;
 }
 
 h4 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    font-weight: 300;
+    /* background-color: rgba(17, 0, 80, 0.7); */
+    text-align: center;
+}
+
+h5 {
+    font-weight: 200;
+}
+
+h6 {
     font-weight: 100;
-    font-style: normal;
 }
 
 .skillz {
-    padding: 2vh;
+    padding: 2vh 2vw;
     box-shadow: 0 0 15px 0px white;
     border-radius: 20px;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
+    margin: 2vh 2vw;
     background-color: rgba(17, 0, 80, 0.7);
 }
 
 @media screen and (max-width: 1000px) {
-    .resume-header {
-        left: 0;
-        visibility: hidden;
-        margin-bottom: 0;
+
+    .resume-content {
         position: absolute;
         left: 0;
-        right: 0;
-        top: 150px;
-    }
-
-    .resume-link {
-        visibility: visible;
-    }
-
-    .resume-content {
-        left: 2vw;
-        right: 0;
-        top: 300px;
+        top: 250px;
         width: 100vw;
+    }
+
+}
+
+/* @media screen and (max-width: 617px) {
+    .resume-text {
         display: flex;
+        flex-direction: row;
         justify-content: center;
     }
-
-    .skillz {
-        margin-right: 5vw;
-        margin-bottom: 2vh;
-    }
-
-}
-
-@media screen and (max-width: 617px) {
-    .resume-content {
-        left: 18vw;
-    }
-}
+} */

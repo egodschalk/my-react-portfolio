@@ -1,72 +1,102 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-.navtabs {
-    border-bottom: 2px white;
+.navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 35vw;
+    position: fixed;
 }
 
-.navbar {
-    justify-content: right;
+.nav-bar {
     position: absolute;
-    top: 100px;
-    right: 0;
+    top: 150px;
 }
 
-.nav-nav-tabs {
-    justify-items: right;
-    /* align-content: right; */
+.tabs {
     border: 0px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 
-/* .nav-link-active {
+.navigation-link {
+    padding: 5px 0;
 
-}*/
-
-.nav-item {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .nav-link {
     color: white;
     border: none;
+    padding: 10px 20px;
+
 }
 
 .nav-link:hover {
     color: white;
-    /* border: none; */
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     background-color: rgba(217, 64, 82, 0.5);
 }
 
-@media screen and (max-width: 1000px) {
-    .navbar {
-        top: 150px;
-    }
-  }
+.active,.active:hover {
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(217, 64, 82,.8);
+    font-weight: 300;
+}
 
-  @media screen and (max-width: 600px) {
-    
-    .navtabs {
+@media screen and (max-width: 1000px) {
+    .navigation {
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        /* margin-left: 34px; */
+        padding: 0;
+    }
+
+    .nav-bar {
+        top: 150px;
+        width: 100vw;
         display: flex;
         justify-content: center;
     }
 
-    .nav-nav-tabs {
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        border-bottom: 1px solid white;
+        width: 100vw;
+        /* bottom: 0; */
+    }
+
+
+    .nav-link:hover {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .active,.active:hover {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    
+    .tabs {
         display: flex;
         justify-content: space-around;
     }
 
-    .nav-item {
+    .navigation-link {
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 0;
         margin-right: 0;
         align-items: center;
-        font-size: 3.65vw;
+        /* font-size: 3.65vw; */
         font-weight: 200;
     }
   }

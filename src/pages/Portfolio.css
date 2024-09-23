@@ -1,46 +1,124 @@
 .portfolio-page {
     color: white;
-    margin: 80px 150px;
-}
-
-.portfolio-header {
-    color: white;
-    margin-bottom: 30px;
-    position: absolute;
-    left: 5%;
-    right: 75%;
-    top: 250px;
-    font-weight: 100;
 }
 
 .portfolio-cards {
     position: absolute;
-    left: 30%;
-    right: 10%;
-    top: 280px;
+    top: 15vh;
+    left: 40vw;
+    right: 10px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-@media screen and (max-width: 1000px) {
-    .portfolio-header {
-        left: 0;
-        visibility: hidden;
-    }
-
-    .portfolio-cards {
-        left: 0;
-        width: 100vw;
-
-    }
+/* .project-carousel {
+    min-width: 850px;
+    height: 350px;
 }
 
-@media screen and (max-width: 800px) {
-    .portfolio-cards {
-        left: 40px;
-        width: 90vw;
+.carousel-project {
+    left: 100px;
+    top: 100px;
+}
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    position: relative;
+    bottom: 40px;
+} */
+
+/* .carousel-inner .carousel-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
+/* .project { */
+/* Adjust this value for the number of items you want to display */
+/* flex-basis: 50%; 
+    padding: 20px;
+} */
+
+.carousel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-content {
+    display: flex;
+    transition: all 250ms linear;
+    -ms-overflow-style: none;
+    /* hide scrollbar in IE and Edge */
+    scrollbar-width: none;
+    /* hide scrollbar in Firefox */
+    position: absolute;
+    top: 50px;
+    padding: 0 20px;
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar,
+.carousel-content::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-content>* {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    box-shadow: 0 0 15px 0px white;
+    font-size: 24pt;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.left-arrow {
+    /* left: 24px; */
+}
+
+.right-arrow {
+    right: 0px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .portfolio-cards {
+        position: absolute;
+        left: 0;
+        top: 280px;
+        width: 100vw;
     }
 }

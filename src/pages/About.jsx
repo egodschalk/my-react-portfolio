@@ -4,7 +4,7 @@ import headshot from '../assets/headshot.jpeg'
 export default function About() {
     return (
         <div className="about-page">
-            <h2 className="about-header">About Me</h2>
+            {/* <h2 className="about-header">About Me</h2> */}
             <div className='about-content'>
                 <img className="headshot" src={headshot} alt="" />
                 <p className='about-text'>

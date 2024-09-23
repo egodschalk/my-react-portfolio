@@ -16,9 +16,6 @@ export default function Project({ data }) {
                     <img className='git-logo' src={data.icon} />
                     </a>
                 </div>
-
-
-                {/* <a href="" download={}></a> */}
             </div>
         </div>
     );

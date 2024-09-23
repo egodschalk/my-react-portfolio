@@ -2,7 +2,7 @@
     color: white;
 }
 
-.about-header {
+/* .about-header {
     color: white;
     font-weight: 100;
     margin-bottom: 30px;
@@ -10,70 +10,85 @@
     left: 5%;
     right: 75%;
     top: 250px;
-}
+} */
 
 .headshot {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 0 15px 0px white;
-    margin-right: 40px;
     margin-bottom: 40px;
 }
 
 .about-content {
     display: flex;
     position: absolute;
-    left: 30vw;
-    top: 250px;
-    text-align: left;
+    left: 40vw;
+    text-align: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+    justify-content: center;
+    top: 0;
 }
 
 .about-text {
-    width: 38vw;
-    min-width: 400px;
-    font-size: 2vh;
+    font-size: 2.5vh;
     padding: 2vh;
     box-shadow: 0 0 15px 0px white;
     border-radius: 20px;
-    margin-bottom: 5vh;
+    margin: 2vh 5vw;
     background-color: rgba(17, 0, 80, 0.7);
 }
 
-@media screen and (max-width: 1000px) {
-    .about-header {
-        left: 0;
-        visibility: hidden;
-    }
 
+@media screen and (max-width: 1000px) {
+    
     .about-content {
+        z-index: -1;
+        position: absolute;
         left: 0;
+        top: 130px;
         width: 100vw;
-        display: flex;
-        justify-content: center;
+    }
+    .headshot {
+        margin: 0 0 20px 0;
+
     }
 
     .about-text {
-        width: 50vw;
+        width: 70vw;
+    }
+
+}
+
+@media screen and (max-width: 779px) {
+
+    .about-content {
+
+        top: 160px;
     }
 }
 
-@media screen and (max-width: 550px) {
-    
+@media screen and (max-width: 645px) {
+
     .about-content {
-        top: 220px;
-    }
-    
-    .headshot {
-        margin: 0 0 40px 0;
-        width: 150px;
-        height: 150px;
+
+        top: 190px;
     }
 
     .about-text {
-        min-width: 300px;
-        font-size: 4vw;
-        margin-left: 50px;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        top: 220px;
     }
 }
