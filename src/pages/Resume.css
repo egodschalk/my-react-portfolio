@@ -69,6 +69,7 @@ h4 {
     font-weight: 300;
     /* background-color: rgba(17, 0, 80, 0.7); */
     text-align: center;
+    padding: 1vh 2vw 0 2vw;
 }
 
 h5 {

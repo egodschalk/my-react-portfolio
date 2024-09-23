@@ -48,10 +48,11 @@
     }
     
     .header-h1 {
-        font-size: 26pt;
+        font-size: 24pt;
     }
 
     .subheader {
         font-size: 16pt;
+        top: 45px;
     }
 }
