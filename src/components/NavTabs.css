@@ -72,13 +72,18 @@
         /* bottom: 0; */
     }
 
+    .navigation-link:hover {
+        font-size: 30pt;
+    }
 
     .nav-link:hover {
         border-radius: 10px 10px 0px 0px;
+        font-size: 30pt;
     }
     
     .active,.active:hover {
         border-radius: 10px 10px 0px 0px;
+        font-size: 30pt;
     }
 
   }
