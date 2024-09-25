@@ -54,13 +54,13 @@ export default function Resume() {
                     <div className='skillz'>
                         <h5>Gap, Inc</h5>
                         <h6>Engineering Manager, 2021-2023</h6>
-                        <ul></ul>
+                        <ul>Managed the implementation of the Manhattan's Labor Management System across four locations. Played a key role in Old Navy’s "Store of the Future" initiative, which focused on optimizing storage and quick replenishment</ul>
                         <h5>West Chester Protective Gear</h5>
                         <h6>Project Manager, 2018-2019</h6>
-                        <ul></ul>
+                        <ul>Led the implementation of Fascor WMS and Eclipse ERP systems, improved inventory accuracy and warehouse efficiency through an incentive program, and designed the layout for a new distribution center.</ul>
                         <h5>Cornerstone Services, Inc</h5>
                         <h6>Senior Industrial Engineer, 2006-2015</h6>
-                        <ul></ul>
+                        <ul>Led the implementation of labor management systems, incentive program, and web-based solutions to streamline operations and improve user experience.</ul>
                     </div>
                 </div>
             </div>
