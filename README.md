@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my single page project portfolio, built with react. Enjoy!
+This is my single page project portfolio, built with React. Enjoy!
 
 ## Deployed Link
 
@@ -11,6 +11,10 @@ https://elizabethgodschalk-portfolio.netlify.app/
 ## GitHub Repo
 
 https://github.com/egodschalk/my-react-portfolio
+
+## Notes
+
+- This app will likely always be in progress... I hope to use this to experiment with interesting front end things as I learn
 
 ## Screenshots
 
