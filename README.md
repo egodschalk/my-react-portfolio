@@ -16,7 +16,7 @@ https://github.com/egodschalk/my-react-portfolio
 
 Desktop View: 
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/1a66ab3d-6f39-448f-a459-3e28d78655bc)
 
 Mobile View:
 
