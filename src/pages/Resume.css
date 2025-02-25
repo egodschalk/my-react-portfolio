@@ -9,26 +9,6 @@
     color: white;
 }
 
-/* .resume-header {
-    color: white;
-    font-weight: 100;
-    margin-bottom: 30px;
-    position: absolute;
-    left: 5%;
-    right: 75%;
-    top: 250px;
-    text-wrap: wrap;
-} */
-
-/* h2 {
-    font-size: 30pt;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-    padding-bottom: 3vh;
-} */
-
 .resume-content {
     display: flex;
     flex-direction: column;
@@ -67,7 +47,6 @@
 
 h4 {
     font-weight: 300;
-    /* background-color: rgba(17, 0, 80, 0.7); */
     text-align: center;
     padding: 1vh 2vw 0 2vw;
 }
@@ -102,11 +81,3 @@ h6 {
     }
 
 }
-
-/* @media screen and (max-width: 617px) {
-    .resume-text {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-} */

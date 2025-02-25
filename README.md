@@ -6,11 +6,17 @@ This is my single page project portfolio, built with React. Enjoy!
 
 ## Deployed Link
 
-https://elizabethgodschalk-portfolio.netlify.app/
+https://www.egodschalk.com/
 
 ## GitHub Repo
 
 https://github.com/egodschalk/my-react-portfolio
+
+## Updates Feb 2025
+
+- Added a contact section
+- Fixed a bug in the navbar at certain screen widths
+- Added new work experience to resume
 
 ## Notes
 
