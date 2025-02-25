@@ -15,7 +15,7 @@
     width: 40px;
     height: 40px;
     box-shadow: 0 0 10px 5px white;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 0 20px;
 }
@@ -29,6 +29,19 @@
     margin: 0 20px;
 }
 
+.contact-footer {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-size: 80%;
+    font-weight: 500;
+}
+
 .ig-icon-footer {
     width: 40px;
     height: 40px;
@@ -40,7 +53,7 @@
 
 .git-icon-footer:hover,
 .li-icon-footer:hover,
-.ig-icon-footer:hover {
+.contact-footer:hover {
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 0 0 15px 5px rgba(255, 255, 255);
 }
@@ -58,16 +71,16 @@
 
     .git-icon-footer,
     .li-icon-footer,
-    .ig-icon-footer {
+    .contact-footer {
         width: 30px;
         height: 30px;
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
 }
 
 @media screen and (max-width: 550px) {
     .footer {
-        top: 120px;
+        top: 130px;
     }
 }
