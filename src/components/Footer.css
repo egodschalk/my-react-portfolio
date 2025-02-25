@@ -6,25 +6,27 @@
     font-weight: 100;
     font-style: normal;
     height: 70px;
-    width: 100vw;
+    width: 30vw;
     position: fixed;
     bottom: 0;
 }
 
-.git-icon-footer {
+.git-icon-footer,
+.li-icon-footer,
+.contact-footer {
     width: 40px;
     height: 40px;
     box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
-.li-icon-footer {
+/* .li-icon-footer {
     width: 40px;
     height: 40px;
     box-shadow: 0 0 10px 5px white;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 0 20px;
 }
@@ -35,21 +37,17 @@
     box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(72, 72, 72);
-    font-size: 80%;
-    font-weight: 500;
-}
+    margin: 0 10px;
+} */
 
-.ig-icon-footer {
+/* .ig-icon-footer {
     width: 40px;
     height: 40px;
     box-shadow: 0 0 10px 5px white;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 0 20px;
-}
+} */
 
 .git-icon-footer:hover,
 .li-icon-footer:hover,
@@ -67,6 +65,7 @@
         justify-content: center;
         height: 30px;
         left: 0;
+        width: 100vw;
     }
 
     .git-icon-footer,
@@ -75,6 +74,7 @@
         width: 30px;
         height: 30px;
         margin: 0 10px;
+        border-radius: 7px;
     }
 
 }

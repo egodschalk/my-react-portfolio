@@ -1,29 +1,19 @@
 .about-page {
     color: white;
-}
-
-/* .about-header {
-    color: white;
-    font-weight: 100;
-    margin-bottom: 30px;
     position: absolute;
-    left: 5%;
-    right: 75%;
-    top: 250px;
-} */
+    left: 40vw;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+}
 
 .about-content {
     display: flex;
-    position: absolute;
-    left: 40vw;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
-    height: 100vh;
     justify-content: center;
-    top: 0;
 }
 
 .headshot {
@@ -46,14 +36,22 @@
 
 @media screen and (max-width: 1000px) {
     
-    .about-content {
+    .about-page {
+        position: absolute;
+        top: 240px;
         left: 0;
-        top: 150px;
         width: 100vw;
+    }
+
+    .about-content {
+        width: 100vw;
+        position: absolute;
+        top: 10px;
     }
 
     .headshot {
         margin: 0 0 20px 0;
+        top: 0;
     }
 
     .about-text {
@@ -62,20 +60,22 @@
 
 }
 
-@media screen and (max-width: 887px) {
+/* @media screen and (max-width: 887px) {
+
+
 
     .about-content {
-        top: 160px;
+        /* top: 160px; */
     }
 }
-
+/* 
 @media screen and (max-width: 783px) {
     .about-content {
         top: 170px;
     }
-}
+} */
 
-@media screen and (max-width: 681px) {
+/* @media screen and (max-width: 681px) {
     .about-content {
         top: 180px;
     }
@@ -93,7 +93,7 @@
         width: 90vw;
         font-weight: 200;
     }
-}
+} */ 
 
 @media screen and (max-width: 500px) {
     .about-content {
