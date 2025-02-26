@@ -8,7 +8,7 @@ import liIcon from '../assets/linkedin-icon.png'
 function Footer() {
     return (
         <div className="footer">
-            <a href="https://github.com/egodschalk">
+            <a href="https://github.com/egodschalk" target='_blank'>
                 <img className='git-icon-footer' src={gitIcon} />
             </a>
             <a>
@@ -17,7 +17,7 @@ function Footer() {
                     />
                 </Link>
             </a>
-            <a href="https://www.linkedin.com/in/elizabeth-godschalk-6932202/">
+            <a href="https://www.linkedin.com/in/elizabeth-godschalk-6932202/" target='_blank'>
                 <img className='li-icon-footer' src={liIcon} />
             </a>
             {/* <a href="https://www.instagram.com/elizabeth.rose.00/">
