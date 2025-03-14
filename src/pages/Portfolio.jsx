@@ -24,7 +24,7 @@ const initialState = [
     },
     {
         id: 2,
-        title: 'KnowItForward',
+        title: 'KnowItForward**',
         icon: gitIcon,
         imgUrl: KnowItFwd,
         gitUrl: "https://github.com/kalisurf3r/knowitforward",
@@ -46,14 +46,14 @@ const initialState = [
         gitUrl: 'https://github.com/egodschalk/hows-the-weather',
         projectUrl: 'https://egodschalk.github.io/hows-the-weather/'
     },
-    {
-        id: 5,
-        title: 'onIt',
-        icon: gitIcon,
-        imgUrl: onIt,
-        gitUrl: 'https://github.com/Preksha2408/Full-stack-application-Project-2',
-        projectUrl: 'https://full-stack-application-project-2.onrender.com/'
-    },
+    // {
+    //     id: 5,
+    //     title: 'onIt',
+    //     icon: gitIcon,
+    //     imgUrl: onIt,
+    //     gitUrl: 'https://github.com/Preksha2408/Full-stack-application-Project-2',
+    //     projectUrl: 'https://full-stack-application-project-2.onrender.com/'
+    // },
     {
         id: 6,
         title: 'CSS Portfolio',
@@ -120,6 +120,10 @@ export default function Portfolio() {
 
 
             </div>
+            {/* <div> */}
+                <p><strong>**Note: these projects were deployed using the free version of Render, and will take a couple minutes to load</strong></p>
+            {/* </div> */}
+            
         </div>
     );
 }

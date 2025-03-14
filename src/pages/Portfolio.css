@@ -1,16 +1,24 @@
 .portfolio-page {
     color: white;
+    position: absolute;
+    left: 40vw;
+    top: 15vh;
+    width: 60vw;
 }
 
 .portfolio-cards {
-    position: absolute;
-    top: 15vh;
-    left: 40vw;
+
+
+
     right: 10px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.portfolio-page p {
+margin: -20px 20px 20px 20px;
 }
 
 /* .project-carousel {
