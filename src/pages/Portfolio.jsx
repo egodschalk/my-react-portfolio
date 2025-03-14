@@ -8,6 +8,7 @@ import dinner from '../assets/whats-for-dinner.jpg';
 import blog from '../assets/blog.jpg';
 import KnowItFwd from '../assets/KnowItForward.jpg';
 import gitIcon from '../assets/github-logo.png'
+import daytOn1 from '../assets/DaytOn1-logo.png'
 // import Carousel from 'react-bootstrap/Carousel';
 // import { Carousel } from 'primereact/carousel';
 
@@ -15,6 +16,14 @@ import gitIcon from '../assets/github-logo.png'
 const initialState = [
     {
         id: 1,
+        title: 'DaytOn1 Salsa',
+        icon: gitIcon,
+        imgUrl: daytOn1,
+        gitUrl: "https://github.com/egodschalk/dayton1-salsa",
+        projectUrl: 'https://dayton1salsa.netlify.app/'
+    },
+    {
+        id: 2,
         title: 'KnowItForward',
         icon: gitIcon,
         imgUrl: KnowItFwd,
@@ -22,7 +31,7 @@ const initialState = [
         projectUrl: 'https://knowitforward.netlify.app/'
     },
     {
-        id: 2,
+        id: 3,
         title: 'What\'s for Dinner?',
         icon: gitIcon,
         imgUrl: dinner,
@@ -30,7 +39,7 @@ const initialState = [
         projectUrl: 'https://justkuper.github.io/Project-1/'
     },
     {
-        id: 3,
+        id: 4,
         title: 'How\'s The Weather?',
         icon: gitIcon,
         imgUrl: weather,
@@ -38,7 +47,7 @@ const initialState = [
         projectUrl: 'https://egodschalk.github.io/hows-the-weather/'
     },
     {
-        id: 4,
+        id: 5,
         title: 'onIt',
         icon: gitIcon,
         imgUrl: onIt,
@@ -46,7 +55,7 @@ const initialState = [
         projectUrl: 'https://full-stack-application-project-2.onrender.com/'
     },
     {
-        id: 5,
+        id: 6,
         title: 'CSS Portfolio',
         icon: gitIcon,
         imgUrl: firstPortfolio,
