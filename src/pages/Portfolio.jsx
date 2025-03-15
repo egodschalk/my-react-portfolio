@@ -118,7 +118,7 @@ export default function Portfolio() {
                 ))} */}
 
             </div>
-            <p><strong>**Note: these projects are hosted by a free service, and will take a couple minutes to load</strong></p>
+            <p><strong>**Note: this project is hosted by a free service, and will take a couple minutes to load</strong></p>
         </div>
     );
 }
