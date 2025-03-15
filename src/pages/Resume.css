@@ -74,6 +74,7 @@ h6 {
         left: 0;
         top: 250px;
         width: 100vw;
+        scroll-margin-top: 250px;
     }
 
     .skillz {

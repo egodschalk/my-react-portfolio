@@ -60,7 +60,7 @@
 @media screen and (max-width: 1000px) {
 
     .footer {
-        position: absolute;
+        position: fixed;
         top: 140px;
         justify-content: center;
         height: 30px;

@@ -49,11 +49,11 @@
 
 @media screen and (max-width: 1000px) {
     .navigation {
-        position: absolute;
+        position: fixed;
         width: 100vw;
         left: 0;
-        /* margin-left: 34px; */
         padding: 0;
+
     }
 
     .nav-bar {
@@ -61,6 +61,7 @@
         width: 100vw;
         display: flex;
         justify-content: center;
+        
     }
 
     .tabs {
@@ -69,21 +70,14 @@
         position: absolute;
         border-bottom: 1px solid white;
         width: 100vw;
-        /* bottom: 0; */
     }
-
-    /* .navigation-link:hover {
-        font-size: 30pt;
-    } */
 
     .nav-link:hover {
         border-radius: 10px 10px 0px 0px;
-        /* font-size: 30pt; */
     }
     
     .active,.active:hover {
         border-radius: 10px 10px 0px 0px;
-        /* font-size: 30pt; */
     }
 
   }
