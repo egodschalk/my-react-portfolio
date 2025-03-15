@@ -49,11 +49,11 @@
 
 @media screen and (max-width: 1000px) {
     .navigation {
-        position: fixed;
+        position: absolute;
         width: 100vw;
         left: 0;
         padding: 0;
-
+        z-index: 10;
     }
 
     .nav-bar {
@@ -61,7 +61,6 @@
         width: 100vw;
         display: flex;
         justify-content: center;
-        
     }
 
     .tabs {

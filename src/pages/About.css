@@ -25,7 +25,7 @@
 }
 
 .about-text {
-    font-size: 2.5vh;
+    font-size: 14pt;
     padding: 2vh;
     box-shadow: 0 0 15px 0px white;
     border-radius: 20px;
@@ -46,7 +46,7 @@
     .about-content {
         width: 100vw;
         position: absolute;
-        top: 10px;
+        top: 20px;
     }
 
     .headshot {
@@ -55,48 +55,13 @@
     }
 
     .about-text {
-        width: 70vw;
+        width: 85vw;
     }
 
 }
-
-/* @media screen and (max-width: 887px) {
-
-
-
-    .about-content {
-        /* top: 160px; */
-    }
-}
-/* 
-@media screen and (max-width: 783px) {
-    .about-content {
-        top: 170px;
-    }
-} */
-
-/* @media screen and (max-width: 681px) {
-    .about-content {
-        top: 180px;
-    }
-}
-
-@media screen and (max-width: 645px) {
-
-    .about-content {
-        top: 180px;
-        display: flex;
-        flex-direction: column !important;
-    }
-
-    .about-text {
-        width: 90vw;
-        font-weight: 200;
-    }
-} */ 
 
 @media screen and (max-width: 500px) {
     .about-content {
-        top: 230px;
+        top: 20px;
     }
 }

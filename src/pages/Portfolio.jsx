@@ -102,7 +102,6 @@ export default function Portfolio() {
         <div className='portfolio-page'>
             {/* <h2 className='portfolio-header'>Portfolio</h2> */}
             <div className='portfolio-cards'>
-
                 {projects.map(proj => (
                     <Project data={proj} key={proj.id} />
                 ))}
@@ -118,12 +117,8 @@ export default function Portfolio() {
                     // <Project data={proj}  />
                 ))} */}
 
-
             </div>
-            {/* <div> */}
-                <p><strong>**Note: these projects were deployed using the free version of Render, and will take a couple minutes to load</strong></p>
-            {/* </div> */}
-            
+            <p><strong>**Note: these projects are hosted by a free service, and will take a couple minutes to load</strong></p>
         </div>
     );
 }
