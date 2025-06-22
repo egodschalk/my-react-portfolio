@@ -20,7 +20,7 @@ const initialState = [
         icon: gitIcon,
         imgUrl: daytOn1,
         gitUrl: "https://github.com/egodschalk/dayton1-salsa",
-        projectUrl: 'https://dayton1salsa.netlify.app/'
+        projectUrl: 'https://dayton1salsa.com/'
     },
     {
         id: 2,
