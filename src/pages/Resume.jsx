@@ -35,7 +35,7 @@ export default function Resume() {
                     <div className='skillz'>
                         <h5>Ingage Partners</h5>
                         <h6>Test Automation Apprentice, 2025-present</h6>
-                        <ul>Perform smoke tests for a client in C# using Selenium 
+                        <ul>Write automated tests for a client in C#, Selenium, Javascript, and Playwright. Perform manual tests as a part of the sprint cycle.
                         </ul>
                     </div>
                     <h4>Product Management Experience</h4>
